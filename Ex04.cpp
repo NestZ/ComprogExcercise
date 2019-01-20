@@ -16,7 +16,7 @@ int main(){
     cout << "Enter your number : ";
     cin >> x;
 
-    cout << greatDiviser(13);
+    cout << greatDiviser(x);
 
     return 0;
 }
