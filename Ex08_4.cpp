@@ -8,7 +8,7 @@ void printPattern1(int N,int M){
     for(i=1;i<=N;i++){
       for(j=1;j<=M;j++){
         if(j % 2 == 0 && i % 2 == 0)cout << "O";
-        else if(j % 2 == 1 && i % 2 == 1)cout << "0";
+        else if(j % 2 == 1 && i % 2 == 1)cout << "O";
         else cout << "x";
       }
       cout << "\n";
