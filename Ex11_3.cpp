@@ -5,7 +5,8 @@ using namespace std;
 int recursion1(int n){
   int sum;
   if(n == 1)return 2;
-  sum += pow(2,n) + recursion1(n - 1);
+  else sum += pow(2,n) + recursion1(n - 1);
+  return sum;
 }
 
 double recursion2(double n){
